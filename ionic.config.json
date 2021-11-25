@@ -1,0 +1,7 @@
+{
+  "name": "ionic-places",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
