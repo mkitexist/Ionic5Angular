@@ -1,3 +1,30 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu side="start">
+    <ion-header>
+      <ion-toolbar> Pair bnb </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item lines="none" routerLink="/places/discover">
+            <ion-icon name="business" slot="start"></ion-icon>
+            <ion-label> Discover places </ion-label>
+          </ion-item>
+          <ion-item lines="none" routerLink="/bookings">
+            <ion-icon name="checkbox-outline" slot="start"></ion-icon>
+            <ion-label> your Bookings </ion-label>
+          </ion-item>
+          <ion-item lines="none" button (click)="onLogout()">
+            <ion-icon name="exit" slot="start"></ion-icon>
+            <ion-label> Logout </ion-label>
+          </ion-item>
+          <ion-item lines="none" routerLink="/places">
+            <ion-icon name="globe" slot="start"></ion-icon>
+            <ion-label> places </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet main></ion-router-outlet>
 </ion-app>

@@ -1,0 +1,6 @@
+{
+	"appId": "io.MyPosts.ionic.starter",
+	"appName": "ionic-places",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

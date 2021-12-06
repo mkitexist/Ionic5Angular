@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MyPosts</string>
+    <string name="title_activity_main">MyPost</string>
+    <string name="package_name">io.MyPosts.ionic.starter</string>
+    <string name="custom_url_scheme">io.MyPosts.ionic.starter</string>
+</resources>
